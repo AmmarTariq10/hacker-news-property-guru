@@ -11,7 +11,7 @@ const App = () => {
     <View style={styles.container}>
       <StatusBar
         backgroundColor={colors.primary}
-        barStyle='dark-content'
+        barStyle='light-content'
       />
       {Platform.OS === 'ios' && <View style={styles.statusBar} />}
       <Provider store={store}>

@@ -10,7 +10,8 @@ const RootStack = (props) => {
         <Root.Navigator
             screenOptions={{
                 headerTitleAlign: 'center',
-                headerStyle: styles.title
+                headerStyle: styles.header,
+                headerTintColor: 'white',
             }}
         >
             <Root.Screen

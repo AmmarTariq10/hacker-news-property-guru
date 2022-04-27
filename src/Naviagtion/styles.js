@@ -3,7 +3,7 @@ import {
 } from 'react-native'
 import colors from '../Constants/colors'
 const styles = StyleSheet.create({
-    title:{
+    header:{
         backgroundColor:colors.primary
     }
 })
