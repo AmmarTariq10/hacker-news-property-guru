@@ -1,13 +1,12 @@
-import actionTypes from "../Actions/actionTypes";
-import initialStates from "./initialStates"
-const initialState = initialStates.GeneralReducer
+import initialStates from "../actions/initialStates"
 
-export default DataReducer = (state = initialState, action) => {
+const initialState = initialStates.DataReducer
+
+const DataReducer = (state = initialState, action) => {
     switch (action.type) {
-       
-
         default: {
             return state
         }
     }
 }
+export default DataReducer
