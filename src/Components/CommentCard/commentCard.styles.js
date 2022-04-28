@@ -8,12 +8,13 @@ const styles = StyleSheet.create({
         
     },
     title:{
-        fontSize:16,
-        fontWeight:'bold',
-        marginBottom:5
+        fontSize:12,
+        marginBottom:2
     },
     info:{
-        fontSize:14,
+        fontSize:10,
+        textAlign:'right',
+        fontWeight:'bold'
     },
     hyperLink:{
         color:'blue',

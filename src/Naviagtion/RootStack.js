@@ -4,6 +4,7 @@ import HomeScreen from "../Screens/HomeScreen";
 import routeNames from "./routeNames";
 import colors from '../Constants/colors'
 import styles from "./styles";
+import CommentsScreen from "../Screens/CommentsScreen";
 const Root = createNativeStackNavigator()
 const RootStack = (props) => {
     return (
@@ -19,6 +20,12 @@ const RootStack = (props) => {
                 component={HomeScreen}
                 options={{
                     title: 'Hacker News'
+                }} />
+            <Root.Screen
+                name={routeNames.rootStack.comment}
+                component={CommentsScreen}
+                options={{
+                    title: 'Comments'
                 }} />
         </Root.Navigator>
     )

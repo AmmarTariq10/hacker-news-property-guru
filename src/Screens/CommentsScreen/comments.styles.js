@@ -10,8 +10,8 @@ const styles = StyleSheet.create({
         width:'90%'
     },
     placeholderItem:{
-        width:'90%',
-        height: 80, 
+        width:'100%',
+        height: 70, 
         marginBottom: 13, 
         borderRadius:8
     }

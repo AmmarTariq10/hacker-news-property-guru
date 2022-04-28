@@ -1,6 +1,7 @@
 const routeNames = {
     rootStack:{
-        home: 'Home'
+        home: 'Home',
+        comment:'CommentsScreen'
     }
 }
 export default routeNames

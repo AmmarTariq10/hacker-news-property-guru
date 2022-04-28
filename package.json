@@ -20,6 +20,7 @@
     "@react-navigation/stack": "^6.2.1",
     "@skele/components": "^1.0.0-alpha.40",
     "@svanboxel/visibility-sensor-react-native": "^1.0.2",
+    "moment": "^2.29.3",
     "react": "17.0.2",
     "react-native": "0.68.1",
     "react-native-gesture-handler": "^2.4.1",
