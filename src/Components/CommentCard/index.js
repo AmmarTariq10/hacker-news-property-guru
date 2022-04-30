@@ -12,6 +12,7 @@ const CommentCard = props => {
     if (!comment.text) return null
     return (
         <Comment
+            testID="comment-card"
             comment={comment}
             time={time}
             hasReplies={hasReplies}

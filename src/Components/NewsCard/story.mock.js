@@ -1,9 +1,6 @@
-import React from "react";
-import { render } from "@testing-library/react-native";
-import HomeScreen from '.'
-import { NavigationContainer } from "@react-navigation/native";
-import CommentsScreen from ".";
-const item = 
+export const story = // 20220429042255
+// https://hacker-news.firebaseio.com/v0/item/31191850.json
+
 {
     "by": "retSava",
     "descendants": 263,
@@ -44,12 +41,3 @@ const item =
     "type": "story",
     "url": "https://www.eink.com/news.html?type=releasedetail&id=2645&year=2022&page=1"
 }
-describe('HomeScreen renders correctly', () => {
-    it('renders correctly', () => {
-        const renderedComponent = render(
-            <CommentsScreen route={{params:{
-                item:item
-            }}}/>
-        );
-    })
-})

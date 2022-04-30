@@ -11,7 +11,7 @@ const Comment = props => {
     const { hasReplies } = props
     if (!comment.text) return null
     return (
-        <TouchableOpacity disabled={!hasReplies} onPress={props.handleOnPress} style={styles.container}>
+        <TouchableOpacity testID={props.testID} disabled={!hasReplies} onPress={props.handleOnPress} style={styles.container}>
             <Text style={styles.info}>
                 @{comment?.by} {time}
             </Text>
